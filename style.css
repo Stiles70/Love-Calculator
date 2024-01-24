@@ -1,0 +1,27 @@
+body{
+    background-image: url(images/pexels-pixabay-326612.jpg);
+    background-size: cover;
+}
+
+#btn{
+    border: 2px solid white;
+    background-color: white;
+}
+
+#btn:hover{
+    background-color: #dcb2ce;
+}
+
+#show{
+    background-color: white;
+}
+
+h1{
+    font-family: cursive;
+}
+
+@media (max-width:470px) {
+    body{
+        background-size: cover;
+    }
+}
